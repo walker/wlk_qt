@@ -7,8 +7,7 @@ $plugin['description'] = 'A quicktime embed plugin for all those new H264 movies
 
 $plugin['type'] = 0; 
 
-
-@include_once('zem_tpl.php');
+@include_once(dirname(dirname(__FILE__)).'/zem_tpl.php');
 
 if (0) {
 ?>
